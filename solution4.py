@@ -3,13 +3,13 @@
 import math
 
 
-# def power(a,b):
-#     if b == 0:
-#         return 1
-#     elif b == 1:
-#         return a
-#     else:
-#         return(a*power(a, b-1))
+def power(a,b):
+    if b == 0:
+        return 1
+    elif b == 1:
+        return a
+    else:
+        return(a*power(a, b-1))
 
 # n = 6 
 # p = 10
@@ -22,10 +22,11 @@ import math
 #     return res
 # print(pow(4,2))
 
-def power(a,b):
+def powerMath(a,b):
     print(math.pow(a,b))
 
-power(4,2)
+print(power(4,2))
+powerMath(6,8)
 
 
 
